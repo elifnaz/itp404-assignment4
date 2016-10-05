@@ -222,7 +222,7 @@ define('itp404/routes/reddit', ['exports', 'ember'], function (exports, _ember) 
 
     model: function model() {
       return $.ajax({
-        url: 'https://www.reddit.com/r/ember.json'
+        url: 'https://www.reddit.com/r/emberjs.json'
       }).then(function (json) {
         return json.data.children;
       });
@@ -646,7 +646,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("itp404/app")["default"].create({"name":"itp404","version":"0.0.0+ce66ea52"});
+  require("itp404/app")["default"].create({"name":"itp404","version":"0.0.0+11d12618"});
 }
 
 /* jshint ignore:end */
