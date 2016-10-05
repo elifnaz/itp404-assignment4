@@ -1,0 +1,1 @@
+/Users/elifnazelo/GitHub/itp404-assignment4/itp404/tmp/funnel-input_base_path-fw8g7kUY.tmp/0/resolver.js

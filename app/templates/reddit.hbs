@@ -1,0 +1,8 @@
+{{#each model as |post|}}
+  <div class="panel">
+    <h3><a href={{post.data.url}} class="title">{{post.data.title}}</a></h3>
+    <p>Score: {{post.data.score}}</p>
+    <p>Comment count: {{post.data.num_comments}}</p>
+    <p>{{#if post.data.archived}}Archived{{else}}Not Archived{{/if}}</p>
+  </div>
+{{/each}}

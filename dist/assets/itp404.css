@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	padding: 1.5em;
+	font-family: sans-serif;
+}
+.panel {
+  border-top: 2px dashed pink;
+  padding: 1em;
+}
+ul {
+	padding: 1em;
+}
+ul li {
+	display: inline;
+	background-color: silver;
+	padding: 8px;
+	margin: 0 15px 0 0;
+}
+ul li a {
+	color: white;
+}
+ul li:hover  {
+	background-color: orange;
+}
+a {
+	text-decoration: none;
+	color: grey;
+}
